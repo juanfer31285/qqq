@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pollarte</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffdf7;
+      color: #222;
+    }
+    header {
+      background: #ffb703;
+      padding: 25px 40px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #fff;
+    }
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      background: #fbf3e4;
+    }
+    .hero img {
+      width: 400px;
+      border-radius: 15px;
+      margin: 15px;
+    }
+    .hero .text {
+      max-width: 500px;
+      margin: 15px;
+    }
+    .hero .text h2 {
+      font-size: 2em;
+      margin-bottom: 15px;
+    }
+    .hero .text p {
+      font-size: 1.1em;
+    }
+    .cta {
+      text-align: center;
+      margin: 50px 20px;
+    }
+    .cta a {
+      background: #e63946;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1.2em;
+      transition: 0.3s;
+    }
+    .cta a:hover {
+      background: #d62828;
+    }
+    .menu {
+      background: #fcecc4;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .menu h3 {
+      font-size: 2em;
+      margin-bottom: 25px;
+    }
+    .menu-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .menu-item {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin: 15px;
+      padding: 20px;
+      width: 260px;
+    }
+    .menu-item img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .menu-item h4 {
+      margin-top: 15px;
+      font-size: 1.2em;
+    }
+    .contacto {
+      background: #222;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .contacto h3 {
+      font-size: 2em;
+    }
+    .contacto p {
+      font-size: 1.1em;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pollarte</h1>
+  </header>
+
+  <section class="hero">
+    <img src="https://th.bing.com/th/id/OIP._9Nib1JX27HHK4UMyyundAHaEK?rs=1&pid=ImgDetMain" alt="pollo frito">
+    <div class="text">
+      <h2>El arte del pollo crujiente</h2>
+      <p>Bienvenido a Pollarte, donde el pollo frito es una obra maestra. Crujiente, jugoso y preparado con pasión. ¿Listo para saborear la diferencia?</p>
+    </div>
+  </section>
+
+  <section class="cta">
+    <a href="#menu">Ver el Menú</a>
+  </section>
+
+  <section class="menu" id="menu">
+    <h3>Nuestros Favoritos</h3>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="https://th.bing.com/th/id/OIP.UEMiLbg64r_kWCKxRWc0egHaHa?w=626&h=626&rs=1&pid=ImgDetMain" alt="combo de pollo">
+        <h4>Combo Dorado</h4>
+        <p>2 piezas + papas + bebida</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://th.bing.com/th/id/OIP.UEMiLbg64r_kWCKxRWc0egHaHa?w=626&h=626&rs=1&pid=ImgDetMain" alt="alitas BBQ">
+        <h4>Alitas BBQ</h4>
+        <p>6 alitas bañadas en salsa dulce picante</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://th.bing.com/th/id/OIP._9Nib1JX27HHK4UMyyundAHaEK?rs=1&pid=ImgDetMain" alt="pollo clásico">
+        <h4>Pollo Clásico</h4>
+        <p>3 piezas estilo original</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacto">
+    <h3>Contacto</h3>
+    <p>📍 Calle del Sabor #123, CDMX</p>
+    <p>📞 +52 55 1234 5678</p>
+    <p>📧 pedidos@pollarte.mx</p>
+  </section>
+</body>
+</html>
